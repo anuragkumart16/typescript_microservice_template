@@ -2,6 +2,11 @@ import express from "express";
 import { errorHandler } from "./middlewares/error.middleware";
 import { httpLogger } from "./middlewares/httpLogger.middleware";
 
+/**
+ * Express Application Instance.
+ * 
+ * Configures middleware, routes, and error handling.
+ */
 const app = express();
 
 // app-level middleware config
