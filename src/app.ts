@@ -1,3 +1,5 @@
+import dotenv from "dotenv";
+dotenv.config();
 import express from "express";
 import { errorHandler } from "./middlewares/error.middleware";
 import { httpLogger } from "./middlewares/httpLogger.middleware";
